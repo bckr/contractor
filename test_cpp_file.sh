@@ -1,2 +1,2 @@
 #!/bin/bash
-clang -Xclang -load -Xclang ../../../../Debug+Asserts/lib/PrintFunctionNames.so -Xclang -plugin -Xclang print-fns -c test.cpp
+clang -Xclang -load -Xclang ../../../../Debug+Asserts/lib/Contractor.so -Xclang -plugin -Xclang contractor -c test.cpp
