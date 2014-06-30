@@ -1,0 +1,4 @@
+*.swp
+Debug+Asserts/
+CMakeLists.txt
+*.out
