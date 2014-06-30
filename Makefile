@@ -33,7 +33,7 @@ LIBS += -lboost_regex
 test:
 	@git checkout test.c
 	@echo "============== running plugin ==============="
-	@clang -Xclang -load -Xclang ../../../../Debug+Asserts/lib/Contractor.so -Xclang -plugin -Xclang print-fns -c test.c
+	@clang -Xclang -load -Xclang ../../../../Debug+Asserts/lib/Contractor.so -Xclang -plugin -Xclang contractor -c test.c
 	@echo "============================================="
 	@echo ""
 	@echo "============== generated file ==============="
@@ -44,7 +44,7 @@ test:
 test_inheritance:
 	@git checkout test.cpp
 	@echo "============== running plugin ==============="
-	@clang -Xclang -load -Xclang ../../../../Debug+Asserts/lib/Contractor.so -Xclang -plugin -Xclang print-fns -c test.cpp
+	@clang -Xclang -load -Xclang ../../../../Debug+Asserts/lib/Contractor.so -Xclang -plugin -Xclang contractor -c test.cpp
 	@echo "============================================="
 	@echo ""
 	@echo "============== generated file ==============="
