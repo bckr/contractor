@@ -1,7 +1,7 @@
 Contractor
 ============
 
-A Plugin for the Clang Compiler to automatically add assertions to C-Sourcefiles based on its Design by Contract specification.
+A Plugin for the Clang Compiler to automatically add assertions to C-Sourcefiles based on their Design by Contract specification.
 
 Instructions
 ------------
